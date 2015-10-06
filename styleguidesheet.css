@@ -3,4 +3,9 @@ body {
   background-image: url('img/pen.jpg');
   background-repeat: no-repeat;
   background-position: 99% 1%;
+  line-height: 1.4em;
+}
+
+h1, h2 {
+  font-family: PT Serif Caption;
 }
