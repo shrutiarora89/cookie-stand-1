@@ -13,11 +13,24 @@ body {
   background-position: center-top;
   background-repeat: no-repeat;
 }
-h1, h2 {
+
+p {
+    background-image: url("img/cookies.jpg");
+    background-position: 30% 70%;
+}
+
+h1 {
   font-weight: bold;
   text-align: center;
   font-family: Georgia;
 }
+
+h2 {
+  font-weight: bold;
+  text-align: center;
+  font-family: Georgia;
+}
+
 li {
   display = inline;
   padding = 10px;
