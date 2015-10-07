@@ -18,6 +18,13 @@ var CookieStand = function(place, ulName, minCustHour, maxCustHour, avgCookiesCu
       this.dailyList.push(this.totalCookiesHour());
     };
   }
+  // this.totalCookiesDay = function(){
+  //   this.dailyList = 0;
+  //     for(var i = 0; i < this.hours; i ++) {
+  //         this.dailyList.push(this.totalCookiesHour());
+  //         this.dailyList = this.dailyList + this.totalCookiesHour[i];
+  //    };
+  // }
   this.makeUL = function(array) {
     for (var i = 0; i < array.length; i++) {
        var ulElement = document.getElementById(ulName);
@@ -35,6 +42,7 @@ var bellevueSq = new CookieStand('Bellevue Square', 'bellevue', 20, 48, 3.3);
 var alki = new CookieStand('Alki', 'Alki', 3, 24, 2.6);
 
 console.log(pikePlace);
+// pikePlace.totalCookiesDay();
 pikePlace.buildList();
 pikePlace.makeUL(pikePlace.dailyList);
 

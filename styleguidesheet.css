@@ -1,11 +1,14 @@
 body {
   background-color: E6E6FA;
-  background-image: url('img/pen.jpg');
-  background-repeat: no-repeat;
   background-position: 99% 1%;
+  line-height: 1.4em;
   line-height: 1.4em;
 }
 
 h1, h2 {
   font-family: PT Serif Caption;
+}
+img.medium {
+  width: 550px;
+  height: 170px;
 }
