@@ -12,12 +12,32 @@ body {
   background-image: url("img/salmon.png");
   background-position: center-top;
   background-repeat: no-repeat;
+  line-height: 1.4em;
 }
-h1, h2 {
+
+header {
+  height: 160px;
+
+}
+
+p {
+    background-image: url("img/cookies.jpg");
+    background-position: 30% 70%;
+}
+
+h1 {
+  font-weight: bold;
   text-align: center;
   font-family: Georgia;
 }
-li {
-  display = inline;
-  padding = 10px;
+
+h2 {
+  font-weight: bold;
+  text-align: center;
+  font-family: Georgia;
+}
+
+div.grid_12 {
+  display: inline;
+  margin-right: 20px;
 }
