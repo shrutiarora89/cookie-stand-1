@@ -45,8 +45,29 @@ var CookieStand = function(place, ulName, minCustHour, maxCustHour, avgCookiesCu
 
   this.makeUL();
 }
+
+// this.makeTable = function(){ //similar to makeUL method
+//   var tableStore = document.getElementById(place);
+//   var itemStore = document.createElement('tr')
+//   tableStore.appendChild(document.createTextNode(place));
+
+//   for(var i = 0; i < times.length; i++){
+//     this.totalCookiesHour.push(Math.floor(this.randCustHour() * this.avgCookiesCust));
+//   }
+      var list =
+      var item =
+      item.appendChild
+      list.appendChild
+// }
+
+
 var pikePlace = new CookieStand('Pike Place', 'pike', 17, 88, 5.2);
 var seaTac = new CookieStand('Sea Tac', 'seatac', 6, 44, 1.2);
 var southCenter = new CookieStand('South Center', 'southcenter', 11, 38, 1.9);
 var bellevueSq = new CookieStand('Bellevue Square', 'bellevue', 20, 48, 3.3);
 var alki = new CookieStand('Alki', 'Alki', 3, 24, 2.6);
+
+var placeNames = [pikePlace, seaTac, southCenter, bellevueSq, alki];
+for (var i = 0; i< placeNames.length; i++){
+  placeNames[i].makeTable();
+};
