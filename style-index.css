@@ -2,20 +2,20 @@
 header {
   text-align: center;
   font-family: PT Serif Caption;
-  background-color: F0FFFF;
-}
-
-body {
   background-color: FFE4E1;
 }
 
-/*sidebar 'Locations'*/
+body {
+  background-color: 8FBC8F;
+}
+
 section.locations {
   text-align: left;
   width: 230px;
   float: right;
   border-style: ridge;
   padding: 0px 0px 10px 0px;
+  background-color: FFE4E1;
 }
 
 section.chat {
@@ -24,6 +24,7 @@ section.chat {
   float: left;
   width: 400px;
   margin: 10px;
+  background-color: FFE4E1;
 }
 
 section.store {
@@ -31,6 +32,7 @@ section.store {
   float: left;
   width: 400px;
   margin: 10px;
+  background-color: FFE4E1;
 }
 
 footer {
@@ -39,9 +41,9 @@ footer {
   width: 400px;
   margin: 10px;
   bottom: 0;
+  background-color: 8B636C
 
 }
-
 
 img.fish {
   float: left;

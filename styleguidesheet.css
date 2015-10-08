@@ -5,6 +5,10 @@ body {
   line-height: 1.4em;
 }
 
+header {
+  text-align: center
+}
+
 h1, h2 {
   font-family: PT Serif Caption;
 }
