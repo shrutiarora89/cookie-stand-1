@@ -1,0 +1,57 @@
+
+header {
+  text-align: center;
+  font-family: PT Serif Caption;
+  background-color: FFE4E1;
+}
+
+body {
+  background-color: 8FBC8F;
+}
+
+section.locations {
+  text-align: left;
+  width: 230px;
+  float: right;
+  border-style: ridge;
+  padding: 0px 0px 10px 0px;
+  background-color: FFE4E1;
+}
+
+section.chat {
+  text-align: center;
+  border-style: ridge;
+  float: left;
+  width: 400px;
+  margin: 10px;
+  background-color: FFE4E1;
+}
+
+section.store {
+  border-style: ridge;
+  float: left;
+  width: 400px;
+  margin: 10px;
+  background-color: FFE4E1;
+}
+
+footer {
+  border-style: ridge;
+  float: bottom;
+  width: 400px;
+  margin: 10px;
+  bottom: 0;
+  background-color: 8B636C
+
+}
+
+img.fish {
+  float: left;
+  margin-right: 10px;
+}
+
+img.family {
+  float: right;
+  margin-left: 10px;
+}
+

@@ -1,43 +1,30 @@
 
-nav {
-  background-color: pink;
-  margin-top: 20px;
-  padding: 10px;
-  text-align: center;
-}
-
 body {
-  margin-top: 200px;
-  background-color: #FF8C69;
-  background-image: url("img/salmon.png");
-  background-position: center-top;
-  background-repeat: no-repeat;
+  margin-top: 0px;
+  background-color: #F0F8FF;
   line-height: 1.4em;
 }
 
+
 header {
-  height: 160px;
-
+  text-align: center;
+  font-family: PT Serif Caption;
+  background-color: E6E6FA;
 }
 
-p {
-    background-image: url("img/cookies.jpg");
-    background-position: 30% 70%;
-}
 
 h1 {
   font-weight: bold;
   text-align: center;
-  font-family: Georgia;
+  font-family: PT Serif Caption;
+  line-height: 1.4em;
 }
 
 h2 {
   font-weight: bold;
   text-align: center;
-  font-family: Georgia;
+  font-family: PT Serif Caption;
+  line-height: 1.4em;
 }
 
-div.grid_12 {
-  display: inline;
-  margin-right: 20px;
-}
+
