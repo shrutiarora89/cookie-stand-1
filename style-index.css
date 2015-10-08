@@ -1,0 +1,55 @@
+
+header {
+  text-align: center;
+  font-family: PT Serif Caption;
+  background-color: F0FFFF;
+}
+
+body {
+  background-color: FFE4E1;
+}
+
+/*sidebar 'Locations'*/
+section.locations {
+  text-align: left;
+  width: 230px;
+  float: right;
+  border-style: ridge;
+  padding: 0px 0px 10px 0px;
+}
+
+section.chat {
+  text-align: center;
+  border-style: ridge;
+  float: left;
+  width: 400px;
+  margin: 10px;
+}
+
+section.store {
+  border-style: ridge;
+  float: left;
+  width: 400px;
+  margin: 10px;
+}
+
+footer {
+  border-style: ridge;
+  float: bottom;
+  width: 400px;
+  margin: 10px;
+  bottom: 0;
+
+}
+
+
+img.fish {
+  float: left;
+  margin-right: 10px;
+}
+
+img.family {
+  float: right;
+  margin-left: 10px;
+}
+
